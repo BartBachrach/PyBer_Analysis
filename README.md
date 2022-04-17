@@ -1,1 +1,10 @@
-# PyBer_Analysis
+# PyBer Analysis 
+## Overview
+This analysis concerned ride-sharing data for a company operating in urban, suburban, and rural markets, and the company, Pyber, wanted to know how the data differed between those three settings. They wanted to know how many drivers they have, how many rides those drivers completed, and the average fares for them. We received two different data files concerning ride sharing across the country broken down by city, and each city was labeled as urban, suburban, and rural. We also received data files concerning driver data across the country, and our task was to uncover trends and advise future business decisions based on current performance. 
+
+## Method
+Our process for conducting this analysis began by combining the two data sets for ride and driver data into one dataframe. We used the ‘merge’ method within the Pandas library to combine the two dataframes on the ‘city’ column. At that point we counted how many rides were completed, how many drivers there were in each city, average fare per ride. We broke them all down by city type (urban, suburban, or rural) and uncovered trends based on what type of city the rides were completed in. We then created a summary dataframe, again broken down by what type of city the data came from. We then visualized the data trends in a multiple line chart, which showed the trends in rides and ride fares per week. 
+
+## Results
+The data showed strong negative correlation between number of rides and average fare per ride. Generally, rides in urban settings were less expensive than rides in suburban, and much less expensive than rides in rural cities. This is to be expected following the basic economic concept of supply and demand. When there is little supply of drivers and rides, the price per ride will go up, and although relatively fewer people visited and requested rides in rural areas, the ones that did had to pay more than ones in suburban and urban settings. The same was true of urban and suburban settings, where more people were available to drive for PyBer, and thus more drivers were available and each ride cost less than ones in rural settings. 
+![This is an image](
