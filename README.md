@@ -7,4 +7,4 @@ Our process for conducting this analysis began by combining the two data sets fo
 
 ## Results
 The data showed strong negative correlation between number of rides and average fare per ride. Generally, rides in urban settings were less expensive than rides in suburban, and much less expensive than rides in rural cities. This is to be expected following the basic economic concept of supply and demand. When there is little supply of drivers and rides, the price per ride will go up, and although relatively fewer people visited and requested rides in rural areas, the ones that did had to pay more than ones in suburban and urban settings. The same was true of urban and suburban settings, where more people were available to drive for PyBer, and thus more drivers were available and each ride cost less than ones in rural settings. 
-![This is an image](
+![This is an image](https://github.com/BartBachrach/PyBer_Analysis/blob/main/analysis/PyBer_Fare_Summary.png)
